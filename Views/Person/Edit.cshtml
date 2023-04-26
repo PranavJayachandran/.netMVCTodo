@@ -1,0 +1,30 @@
+@{
+    Layout="_Layout";
+}
+
+@model List<Todo.Models.Domain.Person>;
+
+<div class="text-center display-4">Add Todos to Complete Them</div>
+<div style="margin-top:20px; font-size:20px; display:flex; justify-content:center">
+    <table >
+        <tr class="text-center">
+        <th  class=""   style="padding:10px 40px">
+            Name
+        </th>
+        <th  style="padding:10px">
+            Email
+        </th>
+    </tr>
+   @foreach ( Todo.Models.Domain.Person todo in Model)
+   {
+    <tr class="text-center"  style="padding:10px">
+        <td  class="" >
+            @todo.Name
+        </td>
+        <td style="padding:10px">
+            @todo.Email
+        </td>
+    </tr>
+   }
+   </table>
+</div>

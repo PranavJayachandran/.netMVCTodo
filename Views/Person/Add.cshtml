@@ -1,0 +1,18 @@
+@model Todo.Models.Domain.Person;
+@{
+    Layout="_Layout";
+}
+
+<div>
+    <form asp-action="Edit">
+        <div>
+            <label asp-for="Name"></label>
+            <input asp-for="Name"/>
+        </div>
+        <div>
+            <label asp-for="Email"></label>
+            <input asp-for="Email"/>
+        </div>
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </form>
+</div>

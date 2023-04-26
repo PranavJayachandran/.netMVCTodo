@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "9USrZxZPIhoB7Ywf8Jihl4kGAD7TK0kWpM85hpGf7SY=",
+  "Source": "Todo",
+  "BasePath": "_content/Todo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Todo\\wwwroot",
+      "Source": "Todo",
+      "ContentRoot": "C:\\Users\\pranavj\\Desktop\\learn angular\\mvc\\Todo\\wwwroot\\",
+      "BasePath": "_content/Todo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\pranavj\\Desktop\\learn angular\\mvc\\Todo\\wwwroot\\favicon.ico",
+      "SourceId": "Todo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pranavj\\Desktop\\learn angular\\mvc\\Todo\\wwwroot\\",
+      "BasePath": "_content/Todo",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}
